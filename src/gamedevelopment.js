@@ -1,22 +1,5 @@
 
-import GameDetails from './components/GameDetails.vue';
+import GameDevelopment from './pages/GameDevelopment.vue';
 
 
-const GameDevelopment = new Vue({
-
-    el: '#app',
-
-    components: {
-        GameDetails,
-    },
-
-    data: () => ({
-        viewMode: 'list',
-        game: {
-            title: 'gametitle',
-        },
-    }),
-
-    template: `<div>list <GameDetails :game="game"></GameDetails></div>`,
-
-});
+const $root = new Vue(GameDevelopment);
