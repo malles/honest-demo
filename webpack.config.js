@@ -24,7 +24,7 @@ module.exports = {
                     {
                         loader: 'sass-loader',
                         options: {
-                            includePaths: ['/src/scss/variables.scss',],
+                            includePaths: ['/src/scss/_variables.scss',],
                         },
                     },
                 ],
