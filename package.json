@@ -1,0 +1,12 @@
+{
+  "name": "honest-demo",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "vue-template-loader": "^1.0.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
