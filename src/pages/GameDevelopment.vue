@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>list</h2>
+        <h2 class="game-title">list</h2>
         <GameDetails :game="game"></GameDetails>
     </div>
 </template>
@@ -28,6 +28,15 @@
     }
 </script>
 
-<style>
+<style lang="scss">
+    @import '../scss/main';
+
+    .game-title {
+        font-size: 15px;
+        color: $primary-color;
+        a {
+            text-decoration: none;
+        }
+    }
 
 </style>

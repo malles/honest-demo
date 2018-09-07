@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <h1>{{ game.title }}</h1>
+        <h1 class="game-title">{{ game.title }}</h1>
     </div>
 
 </template>
