@@ -18,6 +18,10 @@
     }
 
 </script>
-<style scoped>
+<style lang="scss">
+    @import '../scss/main';
+    .game-thing {
+        color: $primary-color;
+    }
 
 </style>
