@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="game-title">list</h2>
+        <h2 class="game-title">Gamedev</h2>
         <GameDetails :game="game"></GameDetails>
     </div>
 </template>
@@ -11,8 +11,6 @@
     export default {
 
         name: 'GameDevelopment',
-
-        el: '#app',
 
         components: {
             GameDetails,

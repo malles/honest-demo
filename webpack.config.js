@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-        'gamedevelopment': './src/gamedevelopment.js',
+        'app': './src/main.js',
     },
     output: {
         path: __dirname + '/public',

@@ -2,6 +2,7 @@
 
     <div>
         <h1 class="game-title">{{ game.title }}</h1>
+        <div class="game-thing">Thing</div>
     </div>
 
 </template>
