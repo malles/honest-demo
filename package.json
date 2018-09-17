@@ -6,7 +6,9 @@
     "dev-build": "yarn webpack",
     "watch": "yarn webpack -w"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue-router": "^3.0.1"
+  },
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^1.0.0",

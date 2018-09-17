@@ -2,11 +2,15 @@
 
     <div>
         <ul class="menu">
-            <li><a @click="navigate('WebDevelopment')">WebDevelopment</a></li>
-            <li><a @click="navigate('GameDevelopment')">GameDevelopment</a></li>
+            <li>
+                <router-link to="/webdevelopment">WebDevelopment</router-link>
+            </li>
+            <li>
+                <router-link to="/gamedevelopment">GameDevelopment</router-link>
+            </li>
         </ul>
         <div>
-            <component :is="activePage"></component>
+            <router-view></router-view>
         </div>
 
     </div>
@@ -14,28 +18,16 @@
 </template>
 <script>
 
-    import GameDevelopment from './pages/GameDevelopment.vue';
-    import WebDevelopment from './pages/WebDevelopment.vue';
-
     export default {
 
         name: 'App',
 
         el: '#app',
 
-        components: {
-            WebDevelopment,
-            GameDevelopment,
-        },
-
         data: () => ({
-            activePage: 'WebDevelopment'
         }),
 
         methods: {
-            navigate(page) {
-                this.activePage = page;
-            },
         },
 
     }
